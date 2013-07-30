@@ -12,7 +12,7 @@ a.name { font-size:3em; font-weight:bold; }
 /**   Nav   **/
 .sitemenu { position:relative; height:1.4em; }
 .sitemenu ul { position:absolute; list-style:none; }
-.sitemenu li { float:left; border:solid; border-width:1px; padding:5px; margin:9px; }
+.sitemenu li { float:left; border:solid; border-width:1px; padding:5px 8px; margin:8px; }
 .sitemenu li ul { display:none; }
 .sitemenu li:hover ul { display:block; }
 .sitemenu li.current > a { font-weight:800; } 
@@ -20,5 +20,5 @@ a.name { font-size:3em; font-weight:bold; }
 /** End Nav **/
 
 /**   Main   **/
-#main { margin:100px 0 0; }
+#main { margin:90px 0 0; }
 /** End Main **/
