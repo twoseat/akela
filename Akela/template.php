@@ -30,9 +30,6 @@
   </div>
 
   <div id="main">
-    <div id="navigation">
-      <ul><?php get_i18n_navigation(return_page_slug(),1,100); ?></ul>
-    </div>
 
     <div id="content">
       <h1 id="pagetitle"><?php get_page_title(); ?></h1>

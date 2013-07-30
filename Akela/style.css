@@ -1,3 +1,9 @@
+/**   Header   **/
+#name { font-size: 2em; }
+/** End Header **/
+
+
+/**   Nav   **/
 .sitemenu { position:relative; height: 1.4em; }
 .sitemenu ul { position:absolute; list-style: none; }
 .sitemenu li { float:left; }
@@ -5,3 +11,4 @@
 .sitemenu li:hover ul { display:block; }
 .sitemenu li.current > a { font-weight:800; } 
 .sitemenu li.currentpath > a { font-weight:800; }
+/** End Nav **/
