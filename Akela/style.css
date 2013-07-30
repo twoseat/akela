@@ -1,14 +1,24 @@
+/**   Global (Re)Sets   **/
+:link,:visited { text-decoration:none }
+a:link, a:visited { color:#306030; }
+a:hover, a:focus { color:#355E3B; }
+body { color:#306030; }
+/** End Global (Re)Sets **/
+
 /**   Header   **/
-#name { font-size: 2em; }
+a.name { font-size:3em; font-weight:bold; }
 /** End Header **/
 
-
 /**   Nav   **/
-.sitemenu { position:relative; height: 1.4em; }
-.sitemenu ul { position:absolute; list-style: none; }
-.sitemenu li { float:left; }
+.sitemenu { position:relative; height:1.4em; }
+.sitemenu ul { position:absolute; list-style:none; }
+.sitemenu li { float:left; border:solid; border-width:1px; padding:5px; margin:9px; }
 .sitemenu li ul { display:none; }
 .sitemenu li:hover ul { display:block; }
 .sitemenu li.current > a { font-weight:800; } 
 .sitemenu li.currentpath > a { font-weight:800; }
 /** End Nav **/
+
+/**   Main   **/
+#main { margin:100px 0 0; }
+/** End Main **/

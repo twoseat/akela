@@ -20,7 +20,7 @@
 </head>
 
 <body id="<?php get_page_slug(); ?>" >
-  <div id="head">
+  <div id="header">
 	<a class="name" href="<?php get_site_url(); ?>"><?php get_site_name(); ?></a>
     <div class="sitemenu">
       <ul><?php get_i18n_navigation(return_page_slug(),0,2,I18N_SHOW_MENU); ?></ul>
